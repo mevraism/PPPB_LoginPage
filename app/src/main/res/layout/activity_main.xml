@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="48dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingStart="34dp"
+        android:paddingVertical="18dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingStart="34dp"
+        android:paddingVertical="18dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"
+        tools:ignore="Autofill,RtlSymmetry" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_member"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/blue"/>
+
+    </LinearLayout>
+
+</LinearLayout>
